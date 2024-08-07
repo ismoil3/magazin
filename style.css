@@ -1,0 +1,138 @@
+.maincard{
+    width: 300px;
+    text-align: center;
+    height: 550px;
+    border: 2px solid black;
+    font-family: sans-serif;
+    white-space: wrap;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 0px 10px;
+    background-color: white;
+}
+.maincard:hover{
+    transition: 0.3s;
+    transform: translateY(-25px);
+    box-shadow: 5px 0px 20px white;
+    
+}
+body{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQknSY8HboBhDBjngi3CEYSZvdS3KRGsJALaQ&s);
+  background-size: cover;
+  background-position: center;
+  user-select: none;
+}
+.button{
+    margin: auto;
+    width: 80%;
+  
+    
+    border: 1px solid black;
+    
+    color: black;
+}
+.button:hover{
+    
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.596);
+    transition: 1s;
+}
+.stars{
+    margin: 0;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    
+}
+
+.image{
+    border-radius: 20px;
+    width: 200px;
+    height:  200px;
+    border: 1px solid black;
+    margin-top: 20px;
+}
+.image:hover{
+    border: 1px solid black;
+    transition: 1s;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.888);
+}
+
+
+.poy{
+    margin: auto;
+    gap: 20px;
+    width: 69%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+/* From Uiverse.io by KlaujonRuamni */ 
+.button {
+    position: relative;
+    display: inline-block;
+    background: linear-gradient(to bottom, #1b1c3f, #4a4e91);
+   /* Gradient background */
+    color: white;
+   /* White text color */
+    font-family: "Segoe UI", sans-serif;
+   /* Stylish and legible font */
+    font-weight: bold;
+    font-size: 18px;
+   /* Large font size */
+    border: none;
+   /* No border */
+    border-radius: 30px;
+   /* Rounded corners */
+    padding: 14px 28px;
+   /* Large padding */
+    cursor: pointer;
+   /* Cursor on hover */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+   /* Subtle shadow */
+    animation: button-shimmer 2s infinite;
+    transition: all 0.3s ease-in-out;
+   /* Smooth transition */
+  }
+  
+  /* Hover animation */
+  .button:hover {
+    background: linear-gradient(to bottom, #2c2f63, #5b67b7);
+    animation: button-particles 1s ease-in-out infinite;
+    transform: translateY(-2px);
+  }
+  
+  /* Click animation */
+  .button:active {
+    transform: scale(0.95);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Shimmer animation */
+  @keyframes button-shimmer {
+    0% {
+      background-position: left top;
+    }
+  
+    100% {
+      background-position: right bottom;
+    }
+  }
+  
+  /* Particle animation */
+  @keyframes button-particles {
+    0% {
+      background-position: left top;
+    }
+  
+    100% {
+      background-position: right bottom;
+    }
+  }
